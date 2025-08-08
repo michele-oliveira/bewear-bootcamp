@@ -7,6 +7,7 @@ import { Header } from "@/components/common/header";
 import ProductList from "@/components/common/product-list";
 import { db } from "@/db";
 import { productTable } from "@/db/schema";
+import Brands from "@/components/common/brands";
 
 const Home = async () => {
   const products = await db.query.productTable.findMany({
@@ -37,6 +38,8 @@ const Home = async () => {
           />
         </div>
 
+        <Brands />
+        
         <ProductList products={products} title="Mais vendidos" />
 
         <div className="px-5">
