@@ -209,3 +209,4 @@ export const cartItemRelations = relations(cartItemTable, ({ one }) => ({
     references: [productVariantTable.id],
   }),
 }));
+
