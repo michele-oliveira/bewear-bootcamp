@@ -12,9 +12,6 @@ Um e-commerce completo e moderno construído com as melhores tecnologias web, of
 - [Instalação e Configuração](#instalação-e-configuração)
 - [Variáveis de Ambiente](#variáveis-de-ambiente)
 - [Scripts Disponíveis](#scripts-disponíveis)
-- [Métricas de Código](#métricas-de-código)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## 🎯 Sobre o Projeto
 
